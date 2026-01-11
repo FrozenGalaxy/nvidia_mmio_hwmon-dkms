@@ -1,0 +1,8 @@
+[Unit]
+Description=Trigger NVIDIA Core Temp Helper on hwmon appearance
+
+[Path]
+PathExistsGlob=/sys/class/hwmon/hwmon*/name
+
+[Install]
+WantedBy=multi-user.target

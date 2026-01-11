@@ -1,0 +1,6 @@
+[Unit]
+Description=Update NVIDIA GPU Core Temperature (NVML → hwmon)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/nvidia-core-temp-helper
