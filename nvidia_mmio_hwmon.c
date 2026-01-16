@@ -336,6 +336,6 @@ static void __exit nmmio_exit(void)
 module_init(nmmio_init);
 module_exit(nmmio_exit);
 
-MODULE_AUTHOR("you");
-MODULE_DESCRIPTION("NVIDIA MMIO hwmon (junction/VRAM) + NVML bridge (temp/power/fan)");
 MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("NVIDIA MMIO hwmon (junction/VRAM) + NVML bridge (temp/power/fan)");
+MODULE_AUTHOR("Hagen Tesch <FrozenGalaxy>");
